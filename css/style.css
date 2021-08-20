@@ -1,0 +1,14 @@
+.navbar {
+  height: 57px;
+  background-color: #1771d8; }
+
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 56px 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 10px; }
+
+.content {
+  height: 100%;
+  background-color: #17d841; }

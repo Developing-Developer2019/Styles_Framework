@@ -1,0 +1,15 @@
+@import 'themes/_colours.scss';
+@import 'components/_navbar.scss';
+
+.layout{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 56px 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.content{
+    height: 100%;
+    background-color: $color-secondary;
+}
