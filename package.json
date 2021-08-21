@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass-compiler": "node-sass sass/main.scss css/style.css",
-    "browser-sync": "browser-sync start --server npm --files='./*.html,./*.css'",
-    "dev": "npm run sass-compiler && npm run browser-sync"
+    "sass-compiler": "node-sass sass/main.scss css/style.css -watch"
   },
   "repository": {
     "type": "git",

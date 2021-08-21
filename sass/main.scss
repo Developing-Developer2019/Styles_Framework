@@ -1,5 +1,10 @@
 @import 'themes/_colours.scss';
-@import 'components/_navbar.scss';
+
+@import 'layout/defaults','layout/containers';
+
+@import 'components/_navbar.scss', 'components/buttons';
+
+@import 'testers/borders';
 
 .layout{
     height: 100vh;
@@ -9,7 +14,3 @@
     grid-gap: 10px;
 }
 
-.content{
-    height: 100%;
-    background-color: $color-secondary;
-}

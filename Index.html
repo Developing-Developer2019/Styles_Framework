@@ -8,18 +8,40 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
-<div class="layout">
-    <div class="layout__navbar navbar">
-        <div class="navbar__links">
-            <a target="_blank" href="#">Link</a>
-            <a target="_blank" href="#">Link</a>
-            <a target="_blank" href="#">Link</a>
-            <a target="_blank" href="#">Link</a>
+<nav>
+    <div class="navbar border_red">
+        <div class="navbar__links border_black">
+            <ul>
+                <li class="navbar_link border_blue">
+                    <a href="#">Link</a>
+                </li>
+                <li class="navbar_link">
+                    <a href="#">Link</a>
+                </li>
+                <li class="navbar_link">
+                    <a href="#">Link</a>
+                </li>
+                <li class="navbar_link">
+                    <a href="#">Link</a>
+                </li>
+                <li class="navbar_link">
+                    <a href="#">Link</a>
+                </li>
+            </ul>
         </div>
+        
     </div>
-    <div class="layout__content content">
-        Content here.
-    </div>
-</div>
+</nav>
+    
+
+<script>
+    document.write(
+      '<script src="http://' +
+        (location.host || '${1:localhost}').split(':')[0] +
+        ':${2:35729}/livereload.js?snipver=1"></' +
+        'script>'
+    );
+  </script>
+    
 </body>
 </html>

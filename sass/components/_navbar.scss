@@ -1,4 +1,10 @@
 .navbar{
     height: 57px;
-    background-color: $color-primary;
+    display: flex;
+    width: 100vw;
+    
+    &_links{
+        width: 100vw;
+        display: flex;
+    }
 }

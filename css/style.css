@@ -1,14 +1,65 @@
+/* line 1, sass/layout/_defaults.scss */
+body {
+  margin: 0px;
+  padding: 0px; }
+
+/* line 1, sass/layout/_containers.scss */
+.container {
+  width: 80vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* line 9, sass/layout/_containers.scss */
+.outter_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* line 1, sass/components/_navbar.scss */
 .navbar {
   height: 57px;
-  background-color: #1771d8; }
+  display: flex;
+  width: 100vw; }
+  /* line 6, sass/components/_navbar.scss */
+  .navbar_links {
+    width: 100vw;
+    display: flex; }
 
+/* line 1, sass/components/_buttons.scss */
+.btn {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px; }
+  /* line 7, sass/components/_buttons.scss */
+  .btn :hover {
+    background-color: darkgrey;
+    color: white; }
+
+/* line 1, sass/testers/_borders.scss */
+.border_black {
+  border: 1px solid black; }
+
+/* line 5, sass/testers/_borders.scss */
+.border_red {
+  border: 1px solid red; }
+
+/* line 9, sass/testers/_borders.scss */
+.border_blue {
+  border: 1px solid blue; }
+
+/* line 13, sass/testers/_borders.scss */
+.border_green {
+  border: 1px solid green; }
+
+/* line 9, sass/main.scss */
 .layout {
   height: 100vh;
   display: grid;
   grid-template-rows: 56px 1fr;
   grid-template-columns: 1fr;
   grid-gap: 10px; }
-
-.content {
-  height: 100%;
-  background-color: #17d841; }
