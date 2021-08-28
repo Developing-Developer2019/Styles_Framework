@@ -6,7 +6,7 @@ body {
 /* line 35, sass/layout/_containers.scss */
 .container {
   max-width: 768px;
-  margin: 0 auto; }  
+  margin: 0 auto; }
   /* line 38, sass/layout/_containers.scss */
   .container--fluid {
     margin: 0;
@@ -14,7 +14,7 @@ body {
   /* line 42, sass/layout/_containers.scss */
   .container-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%; }
   /* line 28, sass/layout/_containers.scss */
   .container-col-1 {
@@ -214,7 +214,6 @@ body {
       background-color: #ffcc5c; }
   /* line 65, sass/layout/_containers.scss */
   [class*='container-col-'] {
-    min-height: 30px;
     background-color: #ff6f69;
     outline: 1px solid #ffcc5c;
     margin: 10px 0;
@@ -225,71 +224,101 @@ body {
     [class*='container-col-'].container_col--higher {
       min-height: 60px; }
 
-/* line 80, sass/layout/_containers.scss */
-.outter_container {
-  width: 100vw;
-  height: 100vh;
-  display: flex; }
+/* line 2, sass/layout/_height-width.scss */
+.height_100 {
+  height: 100px; }
 
-/* line 1, sass/layout/_columns.scss */
-col-1 {
-  width: 10%;
+/* line 5, sass/layout/_height-width.scss */
+.height_90 {
+  height: 90px; }
+
+/* line 8, sass/layout/_height-width.scss */
+.height_80 {
+  height: 80px; }
+
+/* line 11, sass/layout/_height-width.scss */
+.height_70 {
+  height: 70px; }
+
+/* line 14, sass/layout/_height-width.scss */
+.height_60 {
+  height: 60px; }
+
+/* line 17, sass/layout/_height-width.scss */
+.height_50 {
+  height: 50px; }
+
+/* line 20, sass/layout/_height-width.scss */
+.height_40 {
+  height: 40px; }
+
+/* line 23, sass/layout/_height-width.scss */
+.height_30 {
+  height: 30px; }
+
+/* line 26, sass/layout/_height-width.scss */
+.height_20 {
   height: 20px; }
 
-/* line 5, sass/layout/_columns.scss */
-col-2 {
-  width: 20%;
-  height: 20px; }
+/* line 29, sass/layout/_height-width.scss */
+.height_10 {
+  height: 10px; }
 
-/* line 9, sass/layout/_columns.scss */
-col-3 {
-  width: 30%;
-  height: 20px; }
+/* line 35, sass/layout/_height-width.scss */
+.width_100 {
+  width: 100px; }
 
-/* line 13, sass/layout/_columns.scss */
-col-4 {
-  width: 40%;
-  height: 20px; }
+/* line 38, sass/layout/_height-width.scss */
+.width_90 {
+  width: 90px; }
 
-/* line 17, sass/layout/_columns.scss */
-col-5 {
-  width: 50%;
-  height: 20px; }
+/* line 41, sass/layout/_height-width.scss */
+.width_80 {
+  width: 80px; }
 
-/* line 21, sass/layout/_columns.scss */
-col-6 {
-  width: 60%;
-  height: 20px; }
+/* line 44, sass/layout/_height-width.scss */
+.width_70 {
+  width: 70px; }
 
-/* line 25, sass/layout/_columns.scss */
-col-7 {
-  width: 70%;
-  height: 20px; }
+/* line 47, sass/layout/_height-width.scss */
+.width_60 {
+  width: 60px; }
 
-/* line 29, sass/layout/_columns.scss */
-col-8 {
-  width: 80%;
-  height: 20px; }
+/* line 50, sass/layout/_height-width.scss */
+.width_50 {
+  width: 50px; }
 
-/* line 33, sass/layout/_columns.scss */
-col-9 {
-  width: 90%;
-  height: 20px; }
+/* line 53, sass/layout/_height-width.scss */
+.width_40 {
+  width: 40px; }
 
-/* line 37, sass/layout/_columns.scss */
-col-10 {
-  width: 100%;
-  height: 20px; }
+/* line 56, sass/layout/_height-width.scss */
+.width_30 {
+  width: 30px; }
 
-/* line 41, sass/layout/_columns.scss */
-col-11 {
-  width: 110%;
-  height: 20px; }
+/* line 59, sass/layout/_height-width.scss */
+.width_20 {
+  width: 20px; }
 
-/* line 45, sass/layout/_columns.scss */
-col-12 {
-  width: 120%;
-  height: 20px; }
+/* line 62, sass/layout/_height-width.scss */
+.width_10 {
+  width: 10px; }
+
+/* line 2, sass/layout/_alignment.scss */
+.align_vert-cen {
+  align-items: center; }
+
+/* line 5, sass/layout/_alignment.scss */
+.align_horiz-cen {
+  justify-content: center; }
+
+/* line 8, sass/layout/_alignment.scss */
+.align_horiz-right {
+  float: right; }
+
+/* line 11, sass/layout/_alignment.scss */
+.align_horiz-left {
+  justify-content: left; }
 
 /* line 1, sass/components/_navbar.scss */
 .navbar {
@@ -314,24 +343,16 @@ col-12 {
 
 /* line 1, sass/testers/_borders.scss */
 .border_black {
-  border: 2px solid black; }
+  border: 1px solid black; }
 
 /* line 5, sass/testers/_borders.scss */
 .border_red {
-  border: 2px solid red; }
+  border: 1px solid red; }
 
 /* line 9, sass/testers/_borders.scss */
 .border_blue {
-  border: 2px solid blue; }
+  border: 1px solid blue; }
 
 /* line 13, sass/testers/_borders.scss */
 .border_green {
-  border: 2px solid green; }
-
-/* line 9, sass/main.scss */
-.layout {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 56px 1fr;
-  grid-template-columns: 1fr;
-  grid-gap: 10px; }
+  border: 1px solid green; }

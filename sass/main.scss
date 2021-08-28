@@ -1,16 +1,9 @@
 @import 'themes/_colours.scss';
 
-@import 'layout/defaults','layout/containers', 'layout/columns';
+@import 'layout/defaults','layout/containers', 'layout/columns', 'layout/height-width', 'layout/alignment';
 
 @import 'components/_navbar.scss', 'components/buttons';
 
 @import 'testers/borders';
 
-.layout{
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 56px 1fr;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-}
 

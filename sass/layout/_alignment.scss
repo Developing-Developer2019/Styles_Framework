@@ -1,0 +1,14 @@
+.align{
+    &_vert-cen{
+        align-items: center;
+    }
+    &_horiz-cen{
+        justify-content: center;
+    }
+    &_horiz-right{
+        float: right;
+    }
+    &_horiz-left{
+        justify-content: left;
+    }
+}

@@ -41,7 +41,7 @@ $map-grid-props: (
   }
   &-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
   }
   @each $modifier , $breakpoint in $map-grid-props {
@@ -66,7 +66,7 @@ $map-grid-props: (
       &.container_col--higher {
         min-height: 60px;
       }
-      min-height: 30px;
+      // min-height: 30px;
       background-color: #ff6f69;
       outline: 1px solid #ffcc5c;
       margin: 10px 0;
@@ -75,10 +75,4 @@ $map-grid-props: (
       justify-content: space-around;
     }
   }
-}
-
-.outter_container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
 }
