@@ -1,22 +1,22 @@
 //TODO: Test borders (.border_colour)
 
-.border_black{
+.Border_black{
     border: 1px solid black;
 }
 
-.border_red{
+.Border_red{
     border: 1px solid red;
 }
 
-.border_blue{
+.Border_blue{
     border: 1px solid blue;
 }
 
-.border_green{
+.Border_green{
     border: 1px solid green;
 }
 
-.br{
+.BorderRadius{
     &10{
         border-radius: 10%;
     }
@@ -31,17 +31,5 @@
     }
     &50{
         border-radius: 50%;
-    }
-    &60{
-        border-radius: 60%;
-    }
-    &70{
-        border-radius: 80%;
-    }
-    &90{
-        border-radius: 90%;
-    }
-    &100{
-        border-radius: 100%;
     }
 }
