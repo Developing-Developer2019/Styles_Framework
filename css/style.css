@@ -255,3 +255,30 @@ body {
 
 .border_green {
   border: 1px solid green; }
+
+.br10 {
+  border-radius: 10%; }
+
+.br20 {
+  border-radius: 20%; }
+
+.br30 {
+  border-radius: 30%; }
+
+.br40 {
+  border-radius: 40%; }
+
+.br50 {
+  border-radius: 50%; }
+
+.br60 {
+  border-radius: 60%; }
+
+.br70 {
+  border-radius: 80%; }
+
+.br90 {
+  border-radius: 90%; }
+
+.br100 {
+  border-radius: 100%; }
